@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the Access Constraints feature.
  */
+
+include_once 'acc_constraints.features.inc';
