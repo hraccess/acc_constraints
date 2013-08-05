@@ -10,9 +10,9 @@
 function acc_constraints_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'taxonomy_term-access_constraints-field_long_label'
-  $field_instances['taxonomy_term-access_constraints-field_long_label'] = array(
-    'bundle' => 'access_constraints',
+  // Exported field_instance: 'taxonomy_term-acc_access_constraints-field_long_label'
+  $field_instances['taxonomy_term-acc_access_constraints-field_long_label'] = array(
+    'bundle' => 'acc_access_constraints',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
