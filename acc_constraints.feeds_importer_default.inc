@@ -13,7 +13,7 @@ function acc_constraints_feeds_importer_default() {
   $feeds_importer = new stdClass();
   $feeds_importer->disabled = FALSE; /* Edit this to true to make a default feeds_importer disabled initially */
   $feeds_importer->api_version = 1;
-  $feeds_importer->id = 'access_constraints';
+  $feeds_importer->id = 'acc_access_constraints';
   $feeds_importer->config = array(
     'name' => 'CSV Access Constraints',
     'description' => 'Import Access constraints from CVS file for Access Humanitarian project',
@@ -36,7 +36,7 @@ function acc_constraints_feeds_importer_default() {
     'processor' => array(
       'plugin_key' => 'FeedsTermProcessor',
       'config' => array(
-        'vocabulary' => 'access_constraints',
+        'vocabulary' => 'acc_access_constraints',
         'mappings' => array(
           0 => array(
             'source' => 'Name:en',
@@ -57,7 +57,7 @@ function acc_constraints_feeds_importer_default() {
         'update_existing' => '0',
         'input_format' => 'plain_text',
         'skip_hash_check' => 0,
-        'bundle' => 'access_constraints',
+        'bundle' => 'acc_access_constraints',
       ),
     ),
     'content_type' => '',
@@ -67,7 +67,7 @@ function acc_constraints_feeds_importer_default() {
     'import_on_create' => 1,
     'process_in_background' => 1,
   );
-  $export['access_constraints'] = $feeds_importer;
+  $export['acc_access_constraints'] = $feeds_importer;
 
   return $export;
 }

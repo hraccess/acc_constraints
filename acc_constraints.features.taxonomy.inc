@@ -9,9 +9,9 @@
  */
 function acc_constraints_taxonomy_default_vocabularies() {
   return array(
-    'access_constraints' => array(
+    'acc_access_constraints' => array(
       'name' => 'Access constraints',
-      'machine_name' => 'access_constraints',
+      'machine_name' => 'acc_access_constraints',
       'description' => '',
       'hierarchy' => 0,
       'module' => 'taxonomy',

@@ -38,7 +38,7 @@ function acc_constraints_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => array(
-          'vocabulary' => 'access_constraints',
+          'vocabulary' => 'acc_access_constraints',
           'parent' => 0,
         ),
       ),
@@ -73,7 +73,7 @@ function acc_constraints_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => array(
-          'vocabulary' => 'access_constraints',
+          'vocabulary' => 'acc_access_constraints',
           'parent' => 0,
         ),
       ),
