@@ -5,3 +5,10 @@
  */
 
 include_once 'acc_constraints.features.inc';
+
+/**
+ * Implements hook_cron()
+ */
+function acc_constraints_cron() {
+    humanitarianresponse_core_feeds_check('acc_access_constraints', 'http://terms.humanitarianresponse.info/access-constraints.csv');
+}
