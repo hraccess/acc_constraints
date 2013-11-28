@@ -13,7 +13,7 @@ function acc_constraints_field_default_field_bases() {
   // Exported field_base: 'field_access_constraint'
   $field_bases['field_access_constraint'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_access_constraint',
@@ -43,6 +43,7 @@ function acc_constraints_field_default_field_bases() {
         ),
       ),
       'entity_translation_sync' => FALSE,
+      'profile2_private' => FALSE,
     ),
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
